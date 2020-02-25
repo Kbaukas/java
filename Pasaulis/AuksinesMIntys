@@ -1,0 +1,44 @@
+Pasaulis
+
+  Tikslas: Zmoniu populiacijos simuliacija!!!
+
+  Pradiniai simuliacijos duomenys:
+  1.Pradzia:
+
+         -Sukurti Pasauli
+          -prideti zmoniu su tm tikru amziumi
+  pradini skaiciu zmoniu (pagal amziu)
+
+    2.Pasaulio vystymasis
+        a)metu augimas-vienas ciklas-vieni metai
+        -auga metai
+        -zmones mirsta
+                 -kai amzius < 20,mirtis tikimybe 1%
+                 -kai amzius < 30, mirties tikimybe 5%;
+                 -kai amzius < 50, mirties tikimybe 10%;
+                 -kai amzius < 30, mirties tikimybe 20%;
+                  ->=60, mirites tikimybe 30%
+        -zmones gimsta
+                  -populiacija >18 iki <40, tikimybe 10%
+         -kiek yra zmoniu
+  Programos duomenys:
+
+  1.Zmogus:
+    duomenys/klases kintamieji(klases laukai)
+       -amzius
+
+   2.Pasaulis
+    duomenys:
+      -zmoniu sarasas
+
+      veiksmai/metodai:
+             -auga metai
+                    -zmones mirsta
+                             -kai amzius < 20,mirtis tikimybe 1%
+                             -kai amzius < 30, mirties tikimybe 5%;
+                             -kai amzius < 50, mirties tikimybe 10%;
+                             -kai amzius < 30, mirties tikimybe 20%;
+                              ->=60, mirites tikimybe 30%
+                    -zmones gimsta
+                              -populiacija >18 iki <40, tikimybe 10%
+                     -kiek yra zmoniu
